@@ -1,0 +1,22 @@
+# 默认忽略全部
+*
+# ===== 根目录必须保留 =====
+!/.gitignore
+!/*.uproject
+!/claude.md
+!/README.md
+!/ReadMe.md
+# ===== C++ 源码 =====
+!/Source/
+!/Source/**
+# ===== 配置（建议保留默认配置）=====
+!/Config/
+!/Config/Default*.ini
+# ===== 强制忽略资产与生成物 =====
+/Content/
+/Binaries/
+/Intermediate/
+/DerivedDataCache/
+/Saved/
+/.vs/
+/.idea/
